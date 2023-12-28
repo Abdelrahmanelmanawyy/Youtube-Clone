@@ -1,0 +1,26 @@
+
+.b {
+  color: aliceblue;
+  border: 0;
+  padding-right: 50;
+  padding-left: 51;
+  padding-top: 20;
+  padding-bottom: 20;
+  background-color: red;
+  transition: padding-top 1s;
+ 
+  
+}
+.b:hover{
+  
+  padding-top: 10;
+  color: yellow;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+}
+.b:active{
+  background-color: aqua;
+  margin-bottom: 20;
+}
+.s:hover{
+  color: aqua;
+}
